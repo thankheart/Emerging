@@ -2,10 +2,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function Navbar() {
   return (
     <nav>
       <h1>Humanoid Robot Project</h1>
+      <h3>Jung, John, Cort, & Steven</h3>
+      {/*}
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -23,6 +26,7 @@ function Navbar() {
           <Link to="/recent-robots">Recent Robots</Link>
         </li>
       </ul>
+      {*/}
     </nav>
   );
 }

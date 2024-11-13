@@ -8,23 +8,26 @@ import HowItWorks from "./pages/HowItWorks";
 import BenefitsImpacts from "./pages/BenefitsImpacts";
 import RiskSafety from "./pages/RiskSafety";
 import RecentRobots from "./pages/RecentRobots";
-import "./styles.css";
+import "./App.css";
+import InfoBox from "./components/InfoBox";
+import InfoBoxes from "./components/InfoBoxes";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
-        <main>
+        <main>{/*}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
             <Route path="/benefits-impacts" element={<BenefitsImpacts />} />
             <Route path="/risk-safety" element={<RiskSafety />} />
             <Route path="/recent-robots" element={<RecentRobots />} />
-          </Routes>
+          </Routes>{*/}
+          <InfoBoxes />
         </main>
-        <Footer />
+        
       </div>
     </Router>
   );
