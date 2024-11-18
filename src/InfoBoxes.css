@@ -1,0 +1,88 @@
+/* Container styling */
+.info-boxes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Default box styling */
+  .info-box {
+    position: relative;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .info-box:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* Summary view */
+  .info-summary {
+    text-align: center;
+  }
+  
+  .info-summary h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .info-summary p {
+    margin: 8px 0 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Expanded box styling */
+  .info-box.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    border-radius: 0;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .info-details {
+    text-align: center;
+  }
+  
+  .info-details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .info-details p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .info-details button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .info-details button:hover {
+    background-color: #0056b3;
+  }
+  

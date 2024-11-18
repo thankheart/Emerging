@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: EmergingTechnologyHumanoidRobots
+    repo: https://github.com/thankheart/Emerging
+    branch: main
+    buildCommand: npm install; npm run build
+    startCommand: npm run start
+    publishPath: build
+    autoDeploy: true
+

@@ -11,6 +11,9 @@ import RecentRobots from "./pages/RecentRobots";
 import DomesticLabor from "./pages/DomesticLabor";
 import References from "./pages/References";
 import "./styles.css";
+import "./App.css";
+import InfoBox from "./components/InfoBox";
+import InfoBoxes from "./components/InfoBoxes";
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
       <div className="App">
         <Navbar />
         <main>
+          {/*}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/domestic-labor" element={<DomesticLabor />} />
@@ -26,9 +30,10 @@ function App() {
             <Route path="/risk-safety" element={<RiskSafety />} />
             <Route path="/future-directions" element={<FutureDirections />} />
             <Route path="/references" element={<References />} />
-          </Routes>
+    
+          </Routes>{*/}
+          <InfoBoxes />
         </main>
-        <Footer />
       </div>
     </Router>
   );

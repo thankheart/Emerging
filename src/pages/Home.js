@@ -1,6 +1,7 @@
 // src/pages/Home.js
 import React from "react";
 
+
 function Home() {
   return (
     <section>
@@ -34,6 +35,7 @@ function Home() {
         <li>Personalized Cognitive and Emotional Support</li>
       </ul>
     </section>
+
   );
 }
 
