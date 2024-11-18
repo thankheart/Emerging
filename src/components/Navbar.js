@@ -11,16 +11,22 @@ function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/how-it-works">How It Works</Link>
+          <Link to="/domestic-labor">Background</Link>
         </li>
         <li>
           <Link to="/benefits-impacts">Benefits and Impacts</Link>
         </li>
         <li>
+          <Link to="/recent-robots">Recent Robots</Link>
+        </li>
+        <li>
           <Link to="/risk-safety">Risk and Safety</Link>
         </li>
         <li>
-          <Link to="/recent-robots">Recent Robots</Link>
+          <Link to="/future-directions">Future Directions</Link>
+        </li>
+        <li>
+          <Link to="/references">References</Link>
         </li>
       </ul>
     </nav>
