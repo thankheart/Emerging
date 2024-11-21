@@ -1,7 +1,5 @@
 import InfoBoxes from "./components/InfoBoxes";
 import Navbar from "./components/Navbar";
-import { ReferencesSheet } from "./components/SideSheet";
-
 
 
 function App() {
