@@ -66,7 +66,7 @@ const RecentRobotsBox = () => {
                             systems.
                         </p>
                         <a
-                            href="https://www.tesla.com/en_ca/AI"
+                            href="https://www.youtube.com/watch?v=1t1KMXSBrBM"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-blue-500 hover:underline mt-2 inline-block"
